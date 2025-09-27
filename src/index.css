@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Portfolio Theme - Professional Dark */
+    --background: 215 28% 6%;
+    --foreground: 0 0% 98%;
+
+    --card: 215 32% 9%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 215 32% 9%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 213 94% 68%;
+    --primary-foreground: 215 28% 6%;
+
+    --secondary: 215 25% 15%;
+    --secondary-foreground: 0 0% 90%;
+
+    --muted: 215 25% 12%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 197 100% 63%;
+    --accent-foreground: 215 28% 6%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 215 25% 15%;
+    --input: 215 25% 15%;
+    --ring: 213 94% 68%;
+
+    --radius: 0.75rem;
+
+    /* Custom Portfolio Colors */
+    --hero-gradient: linear-gradient(135deg, hsl(213 94% 68% / 0.1), hsl(197 100% 63% / 0.05));
+    --card-gradient: linear-gradient(135deg, hsl(215 32% 9%), hsl(215 25% 11%));
+    --text-gradient: linear-gradient(135deg, hsl(213 94% 68%), hsl(197 100% 63%));
+    --glow: 0 0 40px hsl(213 94% 68% / 0.3);
+    --shadow-elevated: 0 25px 50px -12px hsl(215 28% 6% / 0.6);
+    
+    /* Animation Variables */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv11", "ss01";
+    font-variation-settings: "opsz" 32;
+  }
+
+  /* Custom Utility Classes */
+  .text-gradient {
+    background: var(--text-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-gradient {
+    background: var(--hero-gradient);
+  }
+
+  .card-gradient {
+    background: var(--card-gradient);
+  }
+
+  .glow {
+    box-shadow: var(--glow);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+
+  /* Custom Animations */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      box-shadow: 0 0 20px hsl(213 94% 68% / 0.3);
+    }
+    50% {
+      box-shadow: 0 0 40px hsl(213 94% 68% / 0.6);
+    }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  /* Scrollbar Styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--accent));
+  }
+}
