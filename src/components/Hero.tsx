@@ -10,7 +10,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center text-white relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center text-white relative overflow-hidden pt-20">
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full">
         <video
@@ -48,7 +48,7 @@ const Hero = () => {
               <div className="w-48 h-48 md:w-56 md:h-56 rounded-full border-4 border-white/20 shadow-2xl overflow-hidden animate-float">
                 <img
                   src={profileImage}
-                  alt="Debmalya Das"
+                  alt="Priyadarshani Paul"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
               </div>
@@ -63,40 +63,42 @@ const Hero = () => {
 
           {/* Main Content with staggered animations */}
           <div className="space-y-6">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight">
               <span className="block text-white animate-fade-in-left animate-stagger-1">
-                Debmalya
+                Priyadarshani
               </span>
               <span className="block bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient animate-fade-in-right animate-stagger-2">
-                Das
+                Paul
               </span>
             </h1>
 
             <div className="animate-fade-in-up animate-stagger-3">
-              <p className="text-xl md:text-2xl lg:text-3xl text-gray-300 mb-4 font-light">
-                Business Analyst
+              <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-300 mb-4 font-light">
+                Aspiring Solicitor | LL.M. in International Business Law
               </p>
               <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto rounded-full animate-shimmer"></div>
             </div>
 
-            <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animate-stagger-4">
-              Business Analyst with 2+ years of experience using data analysis to enhance customer operations, streamline workflows, and drive strategic initiatives. Proficient in SQL, Excel, and Python for uncovering insights, automating reporting, and improving service level performance.
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animate-stagger-4 px-4">
+              Aspiring Solicitor with LL.M. in International Business Law from Queen Mary University of London. 
+              Focused on Intellectual Property, Mergers & Acquisitions, and Commercial Arbitration. 
+              Experienced in legal research, document drafting, and corporate compliance across multiple jurisdictions.
             </p>
           </div>
 
           {/* Enhanced Contact Info */}
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-12 text-gray-300 animate-fade-in-up animate-stagger-5">
-            <div className="flex items-center gap-3 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
-              <Mail className="w-5 h-5 text-blue-400 group-hover:text-blue-300 transition-colors" />
-              <span className="text-sm md:text-base">debmalya12thaug@gmail.com</span>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-12 text-gray-300 animate-fade-in-up animate-stagger-5 px-4">
+            <div className="flex items-center gap-3 px-3 sm:px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
+              <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 group-hover:text-blue-300 transition-colors" />
+              <span className="text-xs sm:text-sm md:text-base">priyadarshani.paul@example.com</span>
             </div>
-            <div className="flex items-center gap-3 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
-              <Phone className="w-5 h-5 text-purple-400 group-hover:text-purple-300 transition-colors" />
-              <span className="text-sm md:text-base">+44 7407735660</span>
+            <div className="flex items-center gap-3 px-3 sm:px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
+              <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-purple-400 group-hover:text-purple-300 transition-colors" />
+              <span className="text-xs sm:text-sm md:text-base">+44 7407735660</span>
             </div>
-            <div className="flex items-center gap-3 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
-              <MapPin className="w-5 h-5 text-pink-400 group-hover:text-pink-300 transition-colors" />
-              <span className="text-sm md:text-base">London, UK</span>
+            <div className="flex items-center gap-3 px-3 sm:px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
+              <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-pink-400 group-hover:text-pink-300 transition-colors" />
+              <span className="text-xs sm:text-sm md:text-base">London, UK</span>
             </div>
           </div>
 
@@ -104,7 +106,7 @@ const Hero = () => {
           <div className="animate-scale-in animate-stagger-5">
             <button
               onClick={scrollToAbout}
-              className="group inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-full font-medium transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/25 relative overflow-hidden"
+              className="group inline-flex items-center gap-2 sm:gap-3 px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-full font-medium transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:shadow-blue-500/25 relative overflow-hidden text-sm sm:text-base"
             >
               <span className="relative z-10">Learn More About Me</span>
               <ArrowDown className="animate-bounce group-hover:animate-none group-hover:translate-y-1 transition-transform duration-300" size={20} />

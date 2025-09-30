@@ -1,69 +1,108 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { Building2, MapPin, Calendar, TrendingUp, Award, Users, Target, Zap } from "lucide-react";
+import { Building2, MapPin, Calendar, TrendingUp, Award, Users, Target, Zap, Scale, FileText, BookOpen, Globe } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
     {
-      company: "Duro Insights",
-      position: "Business Analyst",
-      location: "Bristol, UK",
-      duration: "Jan 2024 – Apr 2024",
-      logo: "D",
+      company: "qLegal",
+      position: "Student Legal Advisor",
+      location: "London Area, United Kingdom",
+      duration: "Oct 2023 – May 2024",
+      logo: "QL",
       color: "from-blue-500 to-cyan-500",
       achievements: [
-        "Extracted and cleaned 2,000+ fundraising records using Octoparse, increasing usable data volume by 40%",
-        "Improved campaign ROI potential by 25% by enriching donor datasets and enabling predictive segmentation",
-        "Delivered Tableau dashboards with donor insights and regional trends, enabling strategy alignment",
-        "Increased outreach precision by 18% by identifying engagement patterns across campaigns",
-        "Co-authored campaign performance reports informing decisions for 5+ nonprofit partners"
+        "Delivered a workshop on corporate legal frameworks to 5 QMUL entrepreneurs, enhancing their understanding of compliance and business structuring",
+        "Co-authored a legal publication offering regulatory insights to 2 startups on compliance strategies",
+        "Provided comprehensive legal advisory services to university entrepreneurs and startup ventures",
+        "Developed expertise in corporate legal frameworks and regulatory compliance strategies"
       ],
-      technologies: ["Python", "Octoparse", "Tableau", "Pandas", "NumPy"],
+      technologies: ["Legal Research", "Workshop Delivery", "Publication Writing", "Regulatory Compliance", "Corporate Law"],
       highlights: [
-        { icon: <TrendingUp className="w-5 h-5" />, text: "40% Data Volume Increase", color: "text-blue-400" },
-        { icon: <Target className="w-5 h-5" />, text: "25% ROI Improvement", color: "text-green-400" },
-        { icon: <Users className="w-5 h-5" />, text: "5+ Nonprofit Partners", color: "text-purple-400" }
+        { icon: <Users className="w-5 h-5" />, text: "5 Entrepreneurs Trained", color: "text-blue-400" },
+        { icon: <FileText className="w-5 h-5" />, text: "2 Startups Advised", color: "text-green-400" },
+        { icon: <BookOpen className="w-5 h-5" />, text: "Legal Publication", color: "text-purple-400" }
       ]
     },
     {
-      company: "The Grey Matter Agency",
-      position: "Data Analyst",
-      location: "Kolkata, IND",
-      duration: "Sep 2021 – Sep 2022",
-      logo: "G",
+      company: "Sinha & Company, Advocates",
+      position: "Associate Trainee",
+      location: "Kolkata, West Bengal, India",
+      duration: "Aug 2022 – Mar 2023",
+      logo: "SC",
       color: "from-purple-500 to-pink-500",
       achievements: [
-        "Reduced process defects by 25% via Lean Six Sigma (DMAIC) and root cause analysis",
-        "Enhanced forecasting accuracy by 18% using ML models in Python (Scikit-learn, Pandas)",
-        "Automated KPI reporting via Excel and Python, saving 10+ hours weekly",
-        "Synthesized insights into high-quality executive presentations for stakeholders"
+        "Conducted research on Article 21 of the Indian Constitution, with emphasis on privacy and dignity rights, and synthesized key provisions of the RTI Act and Juvenile Justice Act into concise internal briefs",
+        "Prepared statutory summaries and procedural documentation under the Companies Act, 1956, and the Insolvency and Bankruptcy Code, ensuring legal accuracy and court compliance",
+        "Structured analytical memoranda on arbitration procedures, focusing on unilateral appointments and procedural fairness, contributing to case strategy development",
+        "Enhanced understanding of constitutional law, corporate law, and arbitration procedures through hands-on legal practice"
       ],
-      technologies: ["Python", "Excel", "Scikit-learn", "Pandas", "Lean Six Sigma"],
+      technologies: ["Constitutional Law", "Corporate Law", "Arbitration", "Legal Research", "Document Drafting"],
       highlights: [
-        { icon: <Award className="w-5 h-5" />, text: "25% Defect Reduction", color: "text-orange-400" },
-        { icon: <Zap className="w-5 h-5" />, text: "18% Accuracy Improvement", color: "text-yellow-400" },
-        { icon: <TrendingUp className="w-5 h-5" />, text: "10+ Hours Weekly Saved", color: "text-green-400" }
+        { icon: <Scale className="w-5 h-5" />, text: "Constitutional Research", color: "text-orange-400" },
+        { icon: <FileText className="w-5 h-5" />, text: "Statutory Documentation", color: "text-yellow-400" },
+        { icon: <TrendingUp className="w-5 h-5" />, text: "Arbitration Analysis", color: "text-green-400" }
       ]
     },
     {
-      company: "Amazon",
-      position: "Operations Analyst",
-      location: "Kolkata, IND",
-      duration: "Sep 2020 – Sep 2021",
-      logo: "A",
+      company: "LEXCLAIM",
+      position: "Legal Intern",
+      location: "Delhi, India",
+      duration: "Jun 2021 – Aug 2021",
+      logo: "LC",
       color: "from-orange-500 to-red-500",
       achievements: [
-        "Reduced escalation volume by 15% through standardized resolution workflows",
-        "Improved SLA adherence by 18% via monitoring AHT, FCR, and cross-team collaboration",
-        "Automated weekly reports and KPI dashboards, cutting reporting time by 30%",
-        "Boosted first-call resolution by 10% through real-time knowledge repository updates"
+        "Drafted plaints, applications, and IP-related commercial agreements in line with the Trademark Act, 1999, ensuring legal precision and alignment with client objectives",
+        "Submitted a comparative research project on patent filing procedures in India and Australia, enhancing understanding of cross-jurisdictional regulatory frameworks",
+        "Coordinated electronic court filings, tracked case progress, and facilitated communication between clients and legal teams to ensure efficient handling of IP matters",
+        "Gained confidence in document drafting and statutory interpretation through practical application"
       ],
-      technologies: ["Excel", "KPI Dashboards", "Automation", "Reporting"],
+      technologies: ["Intellectual Property Law", "Trademark Act", "Patent Law", "Court Filings", "Legal Writing"],
       highlights: [
-        { icon: <Users className="w-5 h-5" />, text: "15% Escalation Reduction", color: "text-red-400" },
-        { icon: <Target className="w-5 h-5" />, text: "18% SLA Improvement", color: "text-blue-400" },
-        { icon: <Zap className="w-5 h-5" />, text: "30% Time Savings", color: "text-green-400" }
+        { icon: <FileText className="w-5 h-5" />, text: "IP Agreements Drafted", color: "text-red-400" },
+        { icon: <Globe className="w-5 h-5" />, text: "Cross-jurisdictional Research", color: "text-blue-400" },
+        { icon: <Target className="w-5 h-5" />, text: "Court Filing Coordination", color: "text-green-400" }
+      ]
+    },
+    {
+      company: "Vidyam Legal [Former - UKP Legal]",
+      position: "Legal Intern",
+      location: "Pune, Maharashtra, India",
+      duration: "Jan 2021 – Mar 2021",
+      logo: "VL",
+      color: "from-green-500 to-emerald-500",
+      achievements: [
+        "Drafted plaints, WS, Civil Suits, MoU and legal contracts for individuals and corporate clients such as Huf (a German-based Company)",
+        "Drafted Terms & Conditions and legal policies for an e-learning startup",
+        "Developed expertise in commercial contract drafting and corporate legal documentation",
+        "Gained experience in international client representation and cross-border legal matters"
+      ],
+      technologies: ["Contract Drafting", "Civil Litigation", "Corporate Law", "International Law", "Legal Policies"],
+      highlights: [
+        { icon: <Users className="w-5 h-5" />, text: "International Clients", color: "text-red-400" },
+        { icon: <FileText className="w-5 h-5" />, text: "Contract Drafting", color: "text-blue-400" },
+        { icon: <Target className="w-5 h-5" />, text: "Startup Legal Policies", color: "text-green-400" }
+      ]
+    },
+    {
+      company: "IP Assisto",
+      position: "Research Intern",
+      location: "Delhi, India",
+      duration: "Jun 2020 – Jun 2020",
+      logo: "IP",
+      color: "from-indigo-500 to-purple-500",
+      achievements: [
+        "Wrote well-researched articles on subject matter related to Intellectual Property rights (IPR)",
+        "Wrote case commentaries and participated in activities organized by IP ASSISTO",
+        "Researched on Arbitration and Mediation laws and regulations and delivered analysis and assessments to the company's associates",
+        "Produced legal documents such as briefs, pleadings and appeals"
+      ],
+      technologies: ["Intellectual Property Law", "Arbitration", "Mediation", "Legal Writing", "Case Commentary"],
+      highlights: [
+        { icon: <BookOpen className="w-5 h-5" />, text: "IP Articles Written", color: "text-purple-400" },
+        { icon: <Scale className="w-5 h-5" />, text: "Arbitration Research", color: "text-blue-400" },
+        { icon: <FileText className="w-5 h-5" />, text: "Legal Documents", color: "text-green-400" }
       ]
     }
   ];
@@ -80,14 +119,14 @@ const Experience = () => {
         {/* Header */}
         <div className="text-center mb-20">
           <div className="inline-block mb-6">
-            <h2 className="text-4xl lg:text-6xl font-bold mb-6 text-white animate-fade-in-up">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white animate-fade-in-up">
               Work <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-gradient">Experience</span>
             </h2>
             <div className="w-32 h-1 bg-gradient-to-r from-blue-400 to-purple-500 mx-auto rounded-full animate-shimmer"></div>
           </div>
-          <p className="text-xl text-gray-300 max-w-4xl mx-auto animate-fade-in-up animate-stagger-1">
-            Building production-grade systems and delivering measurable business impact 
-            through innovative technical solutions.
+          <p className="text-lg sm:text-xl text-gray-300 max-w-4xl mx-auto animate-fade-in-up animate-stagger-1 px-4">
+            Building comprehensive legal expertise through diverse internships and advisory roles, 
+            delivering measurable impact through innovative legal solutions and client-focused service.
           </p>
         </div>
 
@@ -98,28 +137,28 @@ const Experience = () => {
               <Card className="card-gradient border-primary/20 shadow-elevated hover:shadow-2xl transition-all duration-500 group overflow-hidden">
                 {/* Header */}
                 <CardHeader className="pb-6">
-                  <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
-                    <div className="flex items-center gap-6">
-                      <div className={`w-20 h-20 bg-gradient-to-br ${exp.color} rounded-2xl flex items-center justify-center text-3xl font-bold text-white shadow-lg group-hover:scale-110 transition-transform duration-300`}>
+                  <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 sm:gap-6">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
+                      <div className={`w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br ${exp.color} rounded-2xl flex items-center justify-center text-2xl sm:text-3xl font-bold text-white shadow-lg group-hover:scale-110 transition-transform duration-300`}>
                         {exp.logo}
                       </div>
                       <div>
-                        <h3 className="text-3xl font-bold text-white group-hover:text-gradient transition-colors duration-300">{exp.position}</h3>
-                        <div className="flex items-center gap-3 text-primary font-semibold text-xl mt-2">
-                          <Building2 className="w-5 h-5" />
+                        <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-white group-hover:text-gradient transition-colors duration-300">{exp.position}</h3>
+                        <div className="flex items-center gap-3 text-primary font-semibold text-lg sm:text-xl mt-2">
+                          <Building2 className="w-4 h-4 sm:w-5 sm:h-5" />
                           {exp.company}
                         </div>
                       </div>
                     </div>
                     
-                    <div className="flex flex-col lg:items-end gap-3 text-sm text-muted-foreground">
-                      <div className="flex items-center gap-3 px-4 py-2 bg-white/10 rounded-full">
-                        <Calendar className="w-4 h-4" />
-                        {exp.duration}
+                    <div className="flex flex-col sm:flex-row lg:flex-col lg:items-end gap-2 sm:gap-3 text-sm text-muted-foreground">
+                      <div className="flex items-center gap-2 sm:gap-3 px-3 sm:px-4 py-2 bg-white/10 rounded-full">
+                        <Calendar className="w-3 h-3 sm:w-4 sm:h-4" />
+                        <span className="text-xs sm:text-sm">{exp.duration}</span>
                       </div>
-                      <div className="flex items-center gap-3 px-4 py-2 bg-white/10 rounded-full">
-                        <MapPin className="w-4 h-4" />
-                        {exp.location}
+                      <div className="flex items-center gap-2 sm:gap-3 px-3 sm:px-4 py-2 bg-white/10 rounded-full">
+                        <MapPin className="w-3 h-3 sm:w-4 sm:h-4" />
+                        <span className="text-xs sm:text-sm">{exp.location}</span>
                       </div>
                     </div>
                   </div>
@@ -127,30 +166,30 @@ const Experience = () => {
 
                 <CardContent className="space-y-8">
                   {/* Key Highlights */}
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
                     {exp.highlights.map((highlight, highlightIndex) => (
                       <div key={highlightIndex} className="text-center p-4 bg-white/5 rounded-xl border border-gray-700 hover:border-blue-500/50 transition-all duration-300 hover:scale-105">
                         <div className={`mx-auto mb-3 ${highlight.color} group-hover:scale-110 transition-transform duration-300`}>
                           {highlight.icon}
                         </div>
-                        <div className="text-sm font-semibold text-white">{highlight.text}</div>
+                        <div className="text-xs sm:text-sm font-semibold text-white">{highlight.text}</div>
                       </div>
                     ))}
                   </div>
 
                   {/* Achievements */}
                   <div className="space-y-4">
-                    <h4 className="text-xl font-semibold text-white mb-4">Key Achievements</h4>
+                    <h4 className="text-lg sm:text-xl font-semibold text-white mb-4">Key Achievements</h4>
                     <div className="grid gap-4">
                       {exp.achievements.map((achievement, achIndex) => (
-                        <div key={achIndex} className="flex gap-4 p-5 bg-gradient-to-r from-white/5 to-white/10 rounded-xl border border-gray-700 hover:border-primary/50 transition-all duration-300 group">
+                        <div key={achIndex} className="flex gap-3 sm:gap-4 p-4 sm:p-5 bg-gradient-to-r from-white/5 to-white/10 rounded-xl border border-gray-700 hover:border-primary/50 transition-all duration-300 group">
                           <div className="flex-shrink-0 mt-1">
-                            <div className="w-10 h-10 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                              <TrendingUp className="w-5 h-5 text-primary" />
+                            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                              <TrendingUp className="w-4 h-4 sm:w-5 sm:h-5 text-primary" />
                             </div>
                           </div>
                           <div className="flex-1">
-                            <p className="text-gray-300 leading-relaxed group-hover:text-white transition-colors duration-300">
+                            <p className="text-sm sm:text-base text-gray-300 leading-relaxed group-hover:text-white transition-colors duration-300">
                               {achievement}
                             </p>
                           </div>
@@ -161,10 +200,10 @@ const Experience = () => {
 
                   {/* Technologies */}
                   <div className="pt-6 border-t border-gray-700">
-                    <h4 className="text-lg font-semibold text-white mb-4">Technologies Used</h4>
-                    <div className="flex flex-wrap gap-3">
+                    <h4 className="text-base sm:text-lg font-semibold text-white mb-4">Technologies Used</h4>
+                    <div className="flex flex-wrap gap-2 sm:gap-3">
                       {exp.technologies.map((tech, techIndex) => (
-                        <Badge key={techIndex} variant="secondary" className="text-sm px-4 py-2 hover:bg-primary/20 hover:scale-105 transition-all duration-300">
+                        <Badge key={techIndex} variant="secondary" className="text-xs sm:text-sm px-3 sm:px-4 py-1 sm:py-2 hover:bg-primary/20 hover:scale-105 transition-all duration-300">
                           {tech}
                         </Badge>
                       ))}
@@ -184,7 +223,7 @@ const Experience = () => {
                 Ready to <span className="text-gradient">Collaborate?</span>
               </h3>
               <p className="text-gray-300 mb-6">
-                Let's discuss how my analytical expertise can drive your business forward.
+                Let's discuss how my legal expertise can support your business needs.
               </p>
               <div className="flex justify-center">
                 <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-full font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25">

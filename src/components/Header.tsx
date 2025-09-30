@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-xl font-bold text-white">
-            Debmalya Das
+            Priyadarshani Paul
           </div>
 
           {/* Desktop Navigation */}
@@ -27,9 +27,6 @@ const Header = () => {
             </button>
             <button onClick={() => scrollToSection('experience')} className="text-gray-300 hover:text-blue-400 transition-colors">
               Experience
-            </button>
-            <button onClick={() => scrollToSection('projects')} className="text-gray-300 hover:text-blue-400 transition-colors">
-              Projects
             </button>
             <button onClick={() => scrollToSection('education')} className="text-gray-300 hover:text-blue-400 transition-colors">
               Education
@@ -41,13 +38,13 @@ const Header = () => {
 
           {/* Contact Info - Desktop */}
           <div className="hidden lg:flex items-center space-x-4">
-            <a href="mailto:debmalya12thaug@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="mailto:priyadarshani.paul@example.com" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Mail size={18} />
             </a>
             <a href="tel:+447407735660" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Phone size={18} />
             </a>
-            <a href="https://linkedin.com/in/debmalya-das" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="https://linkedin.com/in/priyadarshani-paul" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Linkedin size={18} />
             </a>
           </div>
@@ -63,34 +60,31 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 py-4 border-t border-gray-800">
-            <div className="flex flex-col space-y-4">
-              <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-blue-400 transition-colors text-left">
+          <nav className="md:hidden mt-4 py-4 border-t border-gray-800 animate-fade-in-up">
+            <div className="flex flex-col space-y-3">
+              <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-blue-400 transition-colors text-left py-2 px-2 rounded-lg hover:bg-white/5">
                 About
               </button>
-              <button onClick={() => scrollToSection('experience')} className="text-gray-300 hover:text-blue-400 transition-colors text-left">
+              <button onClick={() => scrollToSection('experience')} className="text-gray-300 hover:text-blue-400 transition-colors text-left py-2 px-2 rounded-lg hover:bg-white/5">
                 Experience
               </button>
-              <button onClick={() => scrollToSection('projects')} className="text-gray-300 hover:text-blue-400 transition-colors text-left">
-                Projects
-              </button>
-              <button onClick={() => scrollToSection('education')} className="text-gray-300 hover:text-blue-400 transition-colors text-left">
+              <button onClick={() => scrollToSection('education')} className="text-gray-300 hover:text-blue-400 transition-colors text-left py-2 px-2 rounded-lg hover:bg-white/5">
                 Education
               </button>
-              <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-blue-400 transition-colors text-left">
+              <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-blue-400 transition-colors text-left py-2 px-2 rounded-lg hover:bg-white/5">
                 Contact
               </button>
               
               {/* Mobile Contact Icons */}
-              <div className="flex items-center space-x-4 pt-4 border-t border-gray-800">
-                <a href="mailto:debmalya12thaug@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
-                  <Mail size={18} />
+              <div className="flex items-center justify-center space-x-6 pt-4 border-t border-gray-800">
+                <a href="mailto:priyadarshani.paul@example.com" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
+                  <Mail size={20} />
                 </a>
-                <a href="tel:+447407735660" className="text-gray-300 hover:text-blue-400 transition-colors">
-                  <Phone size={18} />
+                <a href="tel:+447407735660" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
+                  <Phone size={20} />
                 </a>
-                <a href="https://linkedin.com/in/debmalya-das" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
-                  <Linkedin size={18} />
+                <a href="https://linkedin.com/in/priyadarshani-paul" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
+                  <Linkedin size={20} />
                 </a>
               </div>
             </div>
@@ -102,4 +96,3 @@ const Header = () => {
 };
 
 export default Header;
-`

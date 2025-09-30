@@ -8,8 +8,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "debmalya12thaug@gmail.com",
-      href: "mailto:debmalya12thaug@gmail.com",
+      value: "priyadarshani.paul@example.com",
+      href: "mailto:priyadarshani.paul@example.com",
       primary: true
     },
     {
@@ -30,7 +30,7 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com", // replace with actual LinkedIn if available
+      href: "https://linkedin.com/in/priyadarshani-paul", // replace with actual LinkedIn if available
       color: "text-blue-500"
     }
   ];
@@ -43,8 +43,9 @@ const Contact = () => {
             Let's <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Connect</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Business Analyst with 2+ years of experience in data analysis, campaign optimization, and process improvement. 
-            Skilled in SQL, Excel, Python, and BI tools with a proven track record of enhancing operations and customer experience.
+            Aspiring Solicitor with LL.M. in International Business Law from Queen Mary University of London. 
+            Specialized in Intellectual Property, Mergers & Acquisitions, and Commercial Arbitration. 
+            Experienced in legal research, document drafting, and corporate compliance across multiple jurisdictions.
           </p>
         </div>
 
@@ -120,19 +121,20 @@ const Contact = () => {
                     <Badge variant="default" className="text-xs">Available</Badge>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    Currently open to Business Analyst and Data Analyst roles where I can apply data-driven solutions to improve strategy and performance
+                    Currently open to legal roles where I can apply my expertise in Intellectual Property, 
+                    Commercial Arbitration, and Corporate Law to support business growth and compliance
                   </p>
                 </div>
 
                 <div className="space-y-4">
                   <h4 className="font-semibold text-foreground">Education</h4>
                   <div className="text-sm text-muted-foreground">
-                    <p className="font-medium text-primary">University of Bristol</p>
-                    <p>MSc in Business Analytics</p>
-                    <p>Sept 2023 – Sept 2024</p>
-                    <p className="font-medium text-primary mt-2">University of Calcutta</p>
-                    <p>Bachelor of Commerce in Accounting and Finance</p>
-                    <p>Mar 2017 – Mar 2020</p>
+                    <p className="font-medium text-primary">Queen Mary University of London</p>
+                    <p>LL.M. in International Business Law</p>
+                    <p>Sep 2023 – Sep 2024</p>
+                    <p className="font-medium text-primary mt-2">Bharati Vidyapeeth</p>
+                    <p>BBA.LLB</p>
+                    <p>2017 – 2022</p>
                   </div>
                 </div>
 
@@ -140,11 +142,11 @@ const Contact = () => {
                   <h4 className="font-semibold text-foreground">Interests</h4>
                   <div className="flex flex-wrap gap-2">
                     {[
-                      "Data Analysis",
-                      "Predictive Modeling", 
-                      "Process Optimization",
-                      "Business Storytelling",
-                      "Workflow Automation"
+                      "Intellectual Property Law",
+                      "Commercial Arbitration", 
+                      "Mergers & Acquisitions",
+                      "Corporate Compliance",
+                      "Legal Research"
                     ].map((interest, index) => (
                       <Badge key={index} variant="secondary" className="text-xs">
                         {interest}
@@ -159,7 +161,7 @@ const Contact = () => {
                     className="w-full" 
                     asChild
                   >
-                    <a href="mailto:debmalya12thaug@gmail.com">
+                    <a href="mailto:priyadarshani.paul@example.com">
                       <Mail className="w-4 h-4" />
                       Send Message
                     </a>
