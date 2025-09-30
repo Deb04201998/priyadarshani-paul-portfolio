@@ -15,4 +15,7 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  define: {
+    __APP_TITLE__: JSON.stringify("Priyadarshani Paul - Legal Portfolio"),
+  },
 }));
