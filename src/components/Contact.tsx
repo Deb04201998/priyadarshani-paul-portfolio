@@ -30,7 +30,7 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/priyadarshanipaul/details/experience/", // replace with actual LinkedIn if available
+      href: "https://www.linkedin.com/in/priyadarshanipaul/", // replace with actual LinkedIn if available
       color: "text-blue-500"
     }
   ];

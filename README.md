@@ -86,7 +86,7 @@ This project is open source and available under the [MIT License](LICENSE).
 - Email: priyadarshanipaul12@gmail.com
 - Phone: +447767977843
 - Location: London, UK
-- LinkedIn: [priyadarshanipaul](https://www.linkedin.com/in/priyadarshanipaul/details/experience/)
+- LinkedIn: [priyadarshanipaul](https://www.linkedin.com/in/priyadarshanipaul/)
 
 ## 🌟 Key Achievements Highlighted
 

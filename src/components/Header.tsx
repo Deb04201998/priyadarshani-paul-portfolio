@@ -44,7 +44,7 @@ const Header = () => {
             <a href="tel:+447767977843" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Phone size={18} />
             </a>
-            <a href="https://www.linkedin.com/in/priyadarshanipaul/details/experience/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/priyadarshanipaul/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Linkedin size={18} />
             </a>
           </div>
@@ -83,7 +83,7 @@ const Header = () => {
                 <a href="tel:+447767977843" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
                   <Phone size={20} />
                 </a>
-                <a href="https://www.linkedin.com/in/priyadarshanipaul/details/experience/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
+                <a href="https://www.linkedin.com/in/priyadarshanipaul/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
                   <Linkedin size={20} />
                 </a>
               </div>
