@@ -1,0 +1,21 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A78BFA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F472B6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle with subtle glow -->
+  <circle cx="16" cy="16" r="15" fill="url(#gradient)" opacity="0.9"/>
+  
+  <!-- Inner circle for depth -->
+  <circle cx="16" cy="16" r="13" fill="#0F172A" opacity="0.8"/>
+  
+  <!-- DD Monogram -->
+  <text x="16" y="22" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="url(#gradient)">DD</text>
+  
+  <!-- Subtle highlight -->
+  <circle cx="16" cy="16" r="15" fill="none" stroke="url(#gradient)" stroke-width="0.5" opacity="0.6"/>
+</svg>
