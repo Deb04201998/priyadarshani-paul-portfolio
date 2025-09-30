@@ -83,10 +83,10 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 📞 Contact
 
 **Priyadarshani Paul**
-- Email: priyadarshani.paul@example.com
-- Phone: +44 7407735660
+- Email: priyadarshanipaul12@gmail.com
+- Phone: +447767977843
 - Location: London, UK
-- LinkedIn: [priyadarshani-paul](https://linkedin.com/in/priyadarshani-paul)
+- LinkedIn: [priyadarshanipaul](https://www.linkedin.com/in/priyadarshanipaul/details/experience/)
 
 ## 🌟 Key Achievements Highlighted
 

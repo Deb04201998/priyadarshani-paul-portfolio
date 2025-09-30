@@ -8,15 +8,15 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "priyadarshani.paul@example.com",
-      href: "mailto:priyadarshani.paul@example.com",
+      value: "priyadarshanipaul12@gmail.com",
+      href: "mailto:priyadarshanipaul12@gmail.com",
       primary: true
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
-      value: "+44 7407735660",
-      href: "tel:+447407735660"
+      value: "+447767977843",
+      href: "tel:+447767977843"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -30,7 +30,7 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/priyadarshani-paul", // replace with actual LinkedIn if available
+      href: "https://www.linkedin.com/in/priyadarshanipaul/details/experience/", // replace with actual LinkedIn if available
       color: "text-blue-500"
     }
   ];
@@ -161,7 +161,7 @@ const Contact = () => {
                     className="w-full" 
                     asChild
                   >
-                    <a href="mailto:priyadarshani.paul@example.com">
+                    <a href="mailto:priyadarshanipaul12@gmail.com">
                       <Mail className="w-4 h-4" />
                       Send Message
                     </a>

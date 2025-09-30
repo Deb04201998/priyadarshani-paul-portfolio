@@ -38,13 +38,13 @@ const Header = () => {
 
           {/* Contact Info - Desktop */}
           <div className="hidden lg:flex items-center space-x-4">
-            <a href="mailto:priyadarshani.paul@example.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="mailto:priyadarshanipaul12@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Mail size={18} />
             </a>
-            <a href="tel:+447407735660" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="tel:+447767977843" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Phone size={18} />
             </a>
-            <a href="https://linkedin.com/in/priyadarshani-paul" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/priyadarshanipaul/details/experience/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Linkedin size={18} />
             </a>
           </div>
@@ -77,13 +77,13 @@ const Header = () => {
               
               {/* Mobile Contact Icons */}
               <div className="flex items-center justify-center space-x-6 pt-4 border-t border-gray-800">
-                <a href="mailto:priyadarshani.paul@example.com" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
+                <a href="mailto:priyadarshanipaul12@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
                   <Mail size={20} />
                 </a>
-                <a href="tel:+447407735660" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
+                <a href="tel:+447767977843" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
                   <Phone size={20} />
                 </a>
-                <a href="https://linkedin.com/in/priyadarshani-paul" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
+                <a href="https://www.linkedin.com/in/priyadarshanipaul/details/experience/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-blue-400 transition-colors p-2 rounded-lg hover:bg-white/5">
                   <Linkedin size={20} />
                 </a>
               </div>

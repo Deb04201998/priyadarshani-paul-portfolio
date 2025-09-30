@@ -90,11 +90,11 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 md:gap-8 mb-8 sm:mb-12 text-gray-300 animate-fade-in-up animate-stagger-5 px-4">
             <div className="flex items-center gap-3 px-3 sm:px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
               <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 group-hover:text-blue-300 transition-colors" />
-              <span className="text-xs sm:text-sm md:text-base">priyadarshani.paul@example.com</span>
+              <span className="text-xs sm:text-sm md:text-base">priyadarshanipaul12@gmail.com</span>
             </div>
             <div className="flex items-center gap-3 px-3 sm:px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
               <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-purple-400 group-hover:text-purple-300 transition-colors" />
-              <span className="text-xs sm:text-sm md:text-base">+44 7407735660</span>
+              <span className="text-xs sm:text-sm md:text-base">+447767977843</span>
             </div>
             <div className="flex items-center gap-3 px-3 sm:px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full hover:bg-white/20 transition-all duration-300 group">
               <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-pink-400 group-hover:text-pink-300 transition-colors" />
